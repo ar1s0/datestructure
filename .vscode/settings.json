@@ -5,6 +5,9 @@
         "ostream": "cpp",
         "queue": "cpp",
         "vector": "cpp",
-        "deque": "cpp"
+        "deque": "cpp",
+        "chrono": "cpp",
+        "ranges": "cpp",
+        "variant": "cpp"
     }
 }
