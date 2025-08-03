@@ -34,7 +34,7 @@ void get_nextval(char *T, int nextval[]) {
 }
 
 int main() {
-  char *T = " AAABABD";
+  char *T = " ABABABD";
   int next[strlen(T) + 1];
   for (int i = 1; i < strlen(T); i++) {
     printf("%c ", T[i]);
