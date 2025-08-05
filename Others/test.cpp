@@ -5,7 +5,7 @@ struct Node {
   int data;
 };
 
-void fun(Node *n) { n->data = 10; }
+void fun(Node *n) { n->data = 170; }
 
 int main() {
   struct Node *n = new Node;

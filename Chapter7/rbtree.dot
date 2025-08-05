@@ -1,0 +1,24 @@
+digraph RedBlackTree {
+    node [shape=circle, style=filled, fontname="Arial"];
+    "0x1de554eba90" [label="20", fillcolor=black, fontcolor=white];
+    "0x1de554eba90" -> "0x1de554cf0e0";
+    "0x1de554cf0e0" [label="10", fillcolor=black, fontcolor=white];
+    nil0 [shape=point];
+    "0x1de554cf0e0" -> nil0;
+    "0x1de554cf0e0" -> "0x1de554ebb50";
+    "0x1de554ebb50" [label="15", fillcolor=red, fontcolor=black];
+    nil1 [shape=point];
+    "0x1de554ebb50" -> nil1;
+    nil1000 [shape=point];
+    "0x1de554ebb50" -> nil1000;
+    "0x1de554eba90" -> "0x1de554eba60";
+    "0x1de554eba60" [label="30", fillcolor=black, fontcolor=white];
+    "0x1de554eba60" -> "0x1de554eb5b0";
+    "0x1de554eb5b0" [label="25", fillcolor=red, fontcolor=black];
+    nil2 [shape=point];
+    "0x1de554eb5b0" -> nil2;
+    nil1001 [shape=point];
+    "0x1de554eb5b0" -> nil1001;
+    nil1002 [shape=point];
+    "0x1de554eba60" -> nil1002;
+}
